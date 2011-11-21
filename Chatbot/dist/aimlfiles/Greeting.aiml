@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+<!-- Standard greetings-->
+<category>
+    <pattern>HI</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>HOWDY</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>HALLO</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>HI THERE</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>HELLO *</pattern>
+    <template>
+        <srai>HELLO</srai><sr/>
+    </template>
+</category> 
+<category>
+    <pattern>HELLO</pattern>
+    <template>Hi there!</template>
+</category> 
+
+
+
+
+
+</aiml>
