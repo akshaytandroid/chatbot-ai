@@ -9,14 +9,24 @@ aimldir = aimldir.replace("library.zip\\","")
 pattern="*.aiml"
 print "Looking for aiml files in %s ..." % aimldir
 
+x=0
 for path, dirs, files in os.walk(os.path.abspath(aimldir)):
-        for filename in fnmatch.filter(files, pattern):
+        matlist =fnmatch.filter(files, pattern)
+        for filename in matlist:
             newfile= os.path.join(path, filename)
+            x+=1
             bot.learn(newfile)
-
-
-#bot.learn("Computers.aiml")
-while True: print bot.respond(raw_input("> "))
+print "Loaded %s files" % x
+print '-'*80
+            
+while True:
+        strinput = raw_input("> ")
+        if 'exit' in strinput.lower():
+                sys.exit(0)
+        strreturn= bot.respond(strinput)
+        print strreturn
+   
+                
 
 
 
