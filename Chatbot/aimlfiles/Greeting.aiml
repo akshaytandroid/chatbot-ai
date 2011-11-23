@@ -27,7 +27,91 @@
     </template>
 </category>
 <category>
+    <pattern>AHOY</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>G'DAY</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>GOOD EVENING</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>GOOD MORNING</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>GREETING</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>HEY</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>SALUTATIONS</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>WELCOME</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>WHAT'S UP</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>WHAT UP</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>SUP</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>WAZUP</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>YO</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
     <pattern>HELLO *</pattern>
+    <template>
+        <srai>HELLO</srai><sr/>
+    </template>
+</category> 
+<category>
+    <pattern>BONJOUR *</pattern>
     <template>
         <srai>HELLO</srai><sr/>
     </template>
