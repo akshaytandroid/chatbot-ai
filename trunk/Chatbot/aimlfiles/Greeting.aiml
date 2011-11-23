@@ -33,12 +33,6 @@
     </template>
 </category>
 <category>
-    <pattern>G'DAY</pattern>
-    <template>
-        <srai>HELLO</srai>
-    </template>
-</category>
-<category>
     <pattern>GOOD EVENING</pattern>
     <template>
         <srai>HELLO</srai>
@@ -109,18 +103,93 @@
     <template>
         <srai>HELLO</srai><sr/>
     </template>
-</category> 
-<category>
-    <pattern>BONJOUR *</pattern>
-    <template>
-        <srai>HELLO</srai><sr/>
-    </template>
-</category> 
+</category>  
 <category>
     <pattern>HELLO</pattern>
     <template>Hi there!</template>
 </category> 
 
+
+
+
+<category>
+    <pattern>BONJOUR</pattern>
+    <template>
+        <srai>FRAHELLO</srai><sr/>
+    </template>
+</category> 
+<category>
+    <pattern>SALUT</pattern>
+    <template>
+        <srai>FRAHELLO</srai><sr/>
+    </template>
+</category> 
+<category>
+    <pattern>FRAHELLO</pattern>
+    <template>
+	<random>
+		<li>
+          		Bonjour, mon ami! 
+		</li>
+		<li>
+          		Salut!  
+		</li>
+		<li>
+          		Comment allez-vous?   
+		</li>
+      </random>
+    </template>
+</category> 
+
+
+
+
+
+
+<!-- Australian greetings   -->
+<category>
+    <pattern>GOOD DAY</pattern>
+    <template>
+        <srai>AUL</srai>
+    </template>
+</category>
+<category>
+    <pattern>GDAY</pattern>
+    <template>
+        <srai>AUL</srai>
+    </template>
+</category>
+<category>
+    <pattern>G DAY</pattern>
+    <template>
+        <srai>AUL</srai>
+    </template>
+</category>
+<category>
+    <pattern>AUL</pattern>
+    <template>
+ 	<random>
+		<li>
+          		Gidday! Are you Australian?  
+		</li>
+		<li>
+          		G'Day! Are you Australian?  
+		</li>
+		<li>
+          		Hey! Are you Australian?  
+		</li>
+		<li>
+          		Gidday! Are you New Zealand?  
+		</li>
+		<li>
+          		G'Day! Are you New Zealand?  
+		</li>
+		<li>
+          		Hey! Are you New Zealand?  
+		</li>
+      </random>
+    </template>
+</category> 
 
 
 
