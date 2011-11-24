@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category><pattern>WHO IS PRESIDENT</pattern><template><think><set name="he">Barack Obama</set></think>Barack Obama.</template></category>
+<category><pattern>WHO IS THE PRESIDENT</pattern><template><think><set name="he">Barack Obama</set></think>Barack Obama.</template></category>
+<category><pattern>WHO IS THE CURRENT PRESIDENT</pattern><template><think><set name="he">Barack Obama</set></think>Barack Obama.</template></category>
+<category><pattern>WHO IS THE CURRENT PRESIDENT OF THE USA</pattern><template><think><set name="he">Barack Obama</set></think>Barack Obama.</template></category>
+<category><pattern>WHO IS THE CURRENT PRESIDENT OF AMERICA</pattern><template><think><set name="he">Barack Obama</set></think>Barack Obama.</template></category>
+<category><pattern>WHO IS THE CURRENT PRESIDENT THE UNITED STATES</pattern><template><think><set name="he">Barack Obama</set></think>Barack Obama.</template></category>
+<category><pattern>WHO IS THE PRESIDENT OF THE UNITED STATES</pattern><template><think><set name="he">Barack Obama</set></think>Barack Obama.</template></category>
+<category><pattern>WHO IS THE PRESIDENT OF AMERICA</pattern><template><think><set name="he">Barack Obama</set></think>Barack Obama.</template></category>
+
+<category><pattern>I AM THE PRESIDENT OF AMERICA</pattern><template><think><set name="he">Barack Obama</set></think><random><li>Pleased to meet you.</li><li>No you're not. Barack Obama is the current president.</li></random></template></category>
+<category><pattern>I AM THE PRESIDENT</pattern><template><think><set name="he">Barack Obama</set></think><random><li>Pleased to meet you.</li><li>No you're not. Barack Obama is the current president.</li></random></template></category>
+<category><pattern>I AM THE PRESIDENT OF THE UNITED STATES</pattern><template><think><set name="he">Barack Obama</set></think><random><li>Pleased to meet you.</li><li>No you're not. Barack Obama is the current president.</li></random></template></category>
+<category><pattern>I AM THE CURRENT PRESIDENT OF AMERICA</pattern><template><think><set name="he">Barack Obama</set></think><random><li>Pleased to meet you.</li><li>No you're not. Barack Obama is the current president.</li></random></template></category>
+<category><pattern>I AM THE CURRENT PRESIDENT</pattern><template><think><set name="he">Barack Obama</set></think><random><li>Pleased to meet you.</li><li>No you're not. Barack Obama is the current president.</li></random></template></category>
+<category><pattern>I AM THE CURRENT PRESIDENT OF THE UNITED STATES</pattern><template><think><set name="he">Barack Obama</set></think><random><li>Pleased to meet you.</li><li>No you're not. Barack Obama is the current president.</li></random></template></category>
+
+<category><pattern>YOU ARE THE PRESIDENT OF THE UNITED STATES</pattern><template><think><set name="he">No, Barack Obama is the president.</set></think><random><li>You may call me Mr. president</li><li>Mr. president to you.</li></random></template></category>
+<category><pattern>YOU ARE THE PRESIDENT OF AMERICA</pattern><template><think><set name="he">No, Barack Obama is the president.</set></think><random><li>You may call me Mr. president</li><li>Mr. president to you.</li></random></template></category>
+<category><pattern>YOU ARE THE PRESIDENT</pattern><template><think><set name="he">No, Barack Obama is the president.</set></think><random><li>You may call me Mr. president</li><li>Mr. president to you.</li></random></template></category>
+
+
+
+<category><pattern>I HATE THE PRESIDENT</pattern><template><think><set name="he">Barack Obama</set></think>You seem to feel strongly about him. Tell me about your political beliefs.</template></category>
+<category><pattern>DO YOU LIKE THE CURRENT PRESIDENT</pattern><template><think><set name="he">Barack Obama</set></think>He is okay.</template></category>
+
+<category><pattern>NO</pattern><that>I AM THE PRESIDENT</that><template>Who is the president then?</template></category>
+<category><pattern>YES</pattern><that>I AM THE PRESIDENT</that><template>I thought so.</template></category>
+
+<category><pattern>NO</pattern><that>WHO IS THE CURRENT PRESIDENT</that><template>Who is the president then?</template></category>
+<category><pattern>YES</pattern><that>WHO IS THE CURRENT PRESIDENT</that><template>I thought so.</template></category>
+
+
+<category><pattern>WHAT IS THE WHITE HOUSE</pattern><template><think><set name="he">Barack Obama</set></think>It's where the president lives.</template></category>
+<category><pattern>WHERE IS THE WHITE HOUSE</pattern><template><think><set name="he">Barack Obama</set></think>Washington D.C</template></category>
+
+
+<category><pattern>WHO IS GEORGE WASHINGTON</pattern><template><think><set name="he">George Washington</set></think>He was the first president of the United States of America.</template></category>
+<category><pattern>WHO IS JOHN ADAMS</pattern><template><think><set name="he">John Adams</set></think>He was the second president of the United States of America.</template></category>
+<category><pattern>WHO IS THOMAS JEFFERSON</pattern><template><think><set name="he">Thomas Jefferson</set></think>He was the third president of the United States of America.</template></category>
+
+
+<category><pattern>WHO IS JAMES MADISON</pattern><template><think><set name="he">James Madison</set></think>He was the fourth president of the United States of America.</template></category>
+<category><pattern>WHO IS JAMES MONROE</pattern><template><think><set name="he">James Monroe</set></think>He was the fifth president of the United States of America.</template></category>
+
+<category><pattern>WHO IS JOHN QUINCY ADAMS</pattern><template><think><set name="he">John Quincy Adams</set></think>He was the 6th president of the United States of America.</template></category>
+<category><pattern>WHO IS JOHN Q ADAMS</pattern><template><think><set name="he">John Quincy Adams</set></think>He was the 6th president of the United States of America.</template></category>
+<category><pattern>WHO IS JOHN Q. ADAMS</pattern><template><think><set name="he">John Quincy Adams</set></think>He was the 6th president of the United States of America.</template></category>
+
+<category><pattern>WHO IS ANDREW JACKSON</pattern><template><think><set name="he">Andrew Jackson</set></think>He was the 7th president of the United States of America.</template></category>
+<category><pattern>WHO IS MARTIN VAN BUREN</pattern><template><think><set name="he">Martin Van Buren</set></think>He was the 8th president of the United States of America.</template></category>
+<category><pattern>WHO IS WILLIAM HENRY HARRISON</pattern><template><think><set name="he">William Henry Harrison</set></think>He was the 9th president of the United States of America.</template></category>
+<category><pattern>WHO IS WILLIAM H HARRISON</pattern><template><think><set name="he">William Henry Harrison</set></think>He was the 9th president of the United States of America.</template></category>
+<category><pattern>WHO IS WILLIAM H. HARRISON</pattern><template><think><set name="he">William Henry Harrison</set></think>He was the 9th president of the United States of America.</template></category>
+
+<category><pattern>WHO IS JOHN TYLER</pattern><template><think><set name="he">John Tyler</set></think>He was the 10th president of the United States of America.</template></category>
+
+<category><pattern>WHO IS JAMES KNOX POLK</pattern><template><think><set name="he">James Knox Polk</set></think>He was the 11th president of the United States of America.</template></category>
+<category><pattern>WHO IS JAMES K POLK</pattern><template><think><set name="he">James Knox Polk</set></think>He was the 11th president of the United States of America.</template></category>
+<category><pattern>WHO IS JAMES K. POLK</pattern><template><think><set name="he">James Knox Polk</set></think>He was the 11th president of the United States of America.</template></category>
+<category><pattern>WHO IS J.K. POLK</pattern><template><think><set name="he">James Knox Polk</set></think>He was the 11th president of the United States of America.</template></category>
+
+<category><pattern>WHO IS ZACHARY TAYLOR</pattern><template><think><set name="he">Zachary Taylor</set></think>He was the 12th president of the United States of America.</template></category>
+<category><pattern>WHO IS MILLARD FILLMORE</pattern><template><think><set name="he">Millard Fillmore</set></think>He was the 13th president of the United States of America.</template></category>
+<category><pattern>WHO IS FRANKLIN PIERCE</pattern><template><think><set name="he">Franklin Pierce</set></think>He was the 14th president of the United States of America.</template></category>
+<category><pattern>WHO IS JAMES BUCHANAN</pattern><template><think><set name="he">James Buchanan</set></think>He was the 15th president of the United States of America.</template></category>
+
+<category><pattern>WHO IS ABRAHAM LINCOLN</pattern><template><think><set name="he">Abraham Lincoln</set></think>He was the 16th president of the United States of America.</template></category>
+<category><pattern>WHO IS HONEST ABE</pattern><template><think><set name="he">Abraham Lincoln</set></think>Abraham Lincoln was the 16th president of the United States of America.</template></category>
+<category><pattern>WHO IS THE ILLINOIS RAIL SPLITTERI</pattern><template><think><set name="he">Abraham Lincoln</set></think>Abraham Lincoln.</template></category>
+<category><pattern>WHO IS THE GREAT EMANCIPATOR</pattern><template><think><set name="he">Abraham Lincoln</set></think>Abraham Lincoln.</template></category>
+<category><pattern>WHO IS THE LIBERATOR</pattern><template><think><set name="he">Abraham Lincoln</set></think>Abraham Lincoln.</template></category>
+<category><pattern>WHO IS THE ANCIENT ONE</pattern><template><think><set name="he">Abraham Lincoln</set></think>Abraham Lincoln.</template></category>
+<category><pattern>WHO IS UNCLE ABE</pattern><template><think><set name="he">Abraham Lincoln</set></think>Abraham Lincoln.</template></category>
+
+<category><pattern>WHO IS ANDREW JOHNSON</pattern><template><think><set name="he">Andrew Johnson</set></think>He was the 17th president of the United States of America.</template></category>
+<category><pattern>WHO IS THE TENNESSEE TAILOR</pattern><template><think><set name="he">Andrew Johnson</set></think>Andrew Johnson</template></category>
+
+<category><pattern>WHO IS ULYSSES SIMPSON GRANT</pattern><template><think><set name="he">Ulysses Simpson Grant</set></think>He was the 18th president of the United States of America.</template></category>
+<category><pattern>WHO IS ULYSSES S. GRANT</pattern><template><think><set name="he">Ulysses Simpson Grant</set></think>He was the 18th president of the United States of America.</template></category>
+<category><pattern>WHO IS ULYSSES S GRANT</pattern><template><think><set name="he">Ulysses Simpson Grant</set></think>He was the 18th president of the United States of America.</template></category>
+<category><pattern>WHO IS ULYSSES GRANT</pattern><template><think><set name="he">Ulysses Simpson Grant</set></think>He was the 18th president of the United States of America.</template></category>
+<category><pattern>WHO IS UNCONDITIONAL SURRENDER GRANT</pattern><template><think><set name="he">Ulysses Simpson Grant</set></think>Ulysses Simpson Grant</template></category>
+
+<category><pattern>WHO IS RUTHERFORD BIRCHARD HAYES</pattern><template><think><set name="he">Rutherford Birchard Hayes</set></think>He was the 19th president of the United States of America.</template></category>
+<category><pattern>WHO IS RUTHERFORD B. HAYES</pattern><template><think><set name="he">Rutherford Birchard Hayes</set></think>He was the 19th president of the United States of America.</template></category>
+<category><pattern>WHO IS RUTHERFORD B HAYES</pattern><template><think><set name="he">Rutherford Birchard Hayes</set></think>He was the 19th president of the United States of America.</template></category>
+
+<category><pattern>WHO IS JAMES ABRAM GARFIELD</pattern><template><think><set name="he">James Abram Garfield</set></think>He was the 20th president of the United States of America.</template></category>
+<category><pattern>WHO IS JAMES A. GARFIELD</pattern><template><think><set name="he">James Abram Garfield</set></think>He was the 20th president of the United States of America.</template></category>
+<category><pattern>WHO IS JAMES A GARFIELD</pattern><template><think><set name="he">James Abram Garfield</set></think>He was the 20th president of the United States of America.</template></category>
+<category><pattern>WHO IS JAMES GARFIELD</pattern><template><think><set name="he">James Abram Garfield</set></think>He was the 20th president of the United States of America.</template></category>
+<category><pattern>WHO IS BOATMAN JIM</pattern><template><think><set name="he">James Abram Garfield</set></think>James Abram Garfield</template></category>
+
+<category><pattern>WHO IS CHESTER ALAN ARTHUR</pattern><template><think><set name="he">Chester Alan Arthur</set></think>He was the 21th president of the United States of America.</template></category>
+<category><pattern>WHO IS CHESTER A ARTHUR</pattern><template><think><set name="he">Chester Alan Arthur</set></think>He was the 21th president of the United States of America.</template></category>
+<category><pattern>WHO IS CHESTER A. ARTHUR</pattern><template><think><set name="he">Chester Alan Arthur</set></think>He was the 21th president of the United States of America.</template></category>
+
+
+<category><pattern>WHO IS GROVER CLEVELAND</pattern><template><think><set name="he">Grover Cleveland</set></think>He was the 22th president of the United States of America.</template></category>
+<category><pattern>WHO IS BENJAMIN HARRISON</pattern><template><think><set name="he">Benjamin Harrison</set></think>He was the 23th president of the United States of America.</template></category>
+<category><pattern>WHO IS GROVER CLEVELAND</pattern><template><think><set name="he">Grover Cleveland</set></think>He was the 24th president of the United States of America.</template></category>
+<category><pattern>WHO IS WILLIAM MCKINLEY</pattern><template><think><set name="he">William McKinley</set></think>He was the 25th president of the United States of America.</template></category>
+
+<category><pattern>WHO IS THEODORE ROOSEVELT</pattern><template><think><set name="he">Theodore Roosevelt</set></think>He was the 26th president of the United States of America.</template></category>
+<category><pattern>WHO IS THE LION</pattern><template><think><set name="he">Theodore Roosevelt</set></think>Theodore Roosevelt</template></category>
+<category><pattern>WHO IS THEODORE THE MEDDLER</pattern><template><think><set name="he">Theodore Roosevelt</set></think>Theodore Roosevelt</template></category>
+<category><pattern>WHO IS TEDDY</pattern><template><think><set name="he">Theodore Roosevelt</set></think>Theodore Roosevelt</template></category>
+<category><pattern>WHO IS TR</pattern><template><think><set name="he">Theodore Roosevelt</set></think>Theodore Roosevelt</template></category>
+<category><pattern>WHO IS THE TRUST BUSTER</pattern><template><think><set name="he">Theodore Roosevelt</set></think>Theodore Roosevelt</template></category>
+
+
+<category><pattern>WHO IS WILLIAM HOWARD TAFT</pattern><template><think><set name="he">William Howard Taft</set></think>He was the 27th president of the United States of America.</template></category>
+<category><pattern>WHO IS WILLIAM H TAFT</pattern><template><think><set name="he">William Howard Taft</set></think>He was the 27th president of the United States of America.</template></category>
+<category><pattern>WHO IS WILLIAM H. TAFT</pattern><template><think><set name="he">William Howard Taft</set></think>He was the 27th president of the United States of America.</template></category>
+<category><pattern>WHO IS WILLIAM TAFT</pattern><template><think><set name="he">William Howard Taft</set></think>He was the 27th president of the United States of America.</template></category>
+<category><pattern>WHO IS W.H. TAFT</pattern><template><think><set name="he">William Howard Taft</set></think>He was the 27th president of the United States of America.</template></category>
+
+
+<category><pattern>WHO IS WOODROW WILSON</pattern><template><think><set name="he">Woodrow Wilson</set></think>He was the 28th president of the United States of America.</template></category>
+
+<category><pattern>WHO IS WARREN GAMALIEL HARDING</pattern><template><think><set name="he">Warren Gamaliel Harding</set></think>He was the 29th president of the United States of America.</template></category>
+<category><pattern>WHO IS WARREN G HARDING</pattern><template><think><set name="he">Warren Gamaliel Harding</set></think>He was the 29th president of the United States of America.</template></category>
+<category><pattern>WHO IS WARREN G. HARDING</pattern><template><think><set name="he">Warren Gamaliel Harding</set></think>He was the 29th president of the United States of America.</template></category>
+<category><pattern>WHO IS WARREN HARDING</pattern><template><think><set name="he">Warren Gamaliel Harding</set></think>He was the 29th president of the United States of America.</template></category>
+
+
+<category><pattern>WHO IS CALVIN COOLIDGE</pattern><template><think><set name="he">Calvin Coolidge</set></think>He was the 30th president of the United States of America.</template></category>
+<category><pattern>WHO IS COOL CAL</pattern><template><think><set name="he">Calvin Coolidge</set></think>Calvin Coolidge.</template></category>
+
+
+<category><pattern>WHO IS HERBERT CLARK HOOVER</pattern><template><think><set name="he">Herbert Clark Hoover</set></think>He was the 31th president of the United States of America.</template></category>
+<category><pattern>WHO IS HERBERT C HOOVER</pattern><template><think><set name="he">Herbert Clark Hoover</set></think>He was the 31th president of the United States of America.</template></category>
+<category><pattern>WHO IS HERBERT C. HOOVER</pattern><template><think><set name="he">Herbert Clark Hoover</set></think>He was the 31th president of the United States of America.</template></category>
+<category><pattern>WHO IS HERBERT HOOVER</pattern><template><think><set name="he">Herbert Clark Hoover</set></think>He was the 31th president of the United States of America.</template></category>
+
+
+<category><pattern>WHO IS FRANKLIN DELANO ROOSEVELT</pattern><template><think><set name="he">Franklin Delano Roosevelt</set></think>He was the 32th president of the United States of America.</template></category>
+<category><pattern>WHO IS FRANKLIN D. ROOSEVELT</pattern><template><think><set name="he">Franklin Delano Roosevelt</set></think>He was the 32th president of the United States of America.</template></category>
+<category><pattern>WHO IS F.D. ROOSEVELT</pattern><template><think><set name="he">Franklin Delano Roosevelt</set></think>He was the 32th president of the United States of America.</template></category>
+<category><pattern>WHO IS F.D ROOSEVELT</pattern><template><think><set name="he">Franklin Delano Roosevelt</set></think>He was the 32th president of the United States of America.</template></category>
+<category><pattern>WHO IS F.D.R</pattern><template><think><set name="he">Franklin Delano Roosevelt</set></think>Franklin Delano Roosevelt was the 32th president of the United States of America.</template></category>
+<category><pattern>WHO IS FDR</pattern><template><think><set name="he">Franklin Delano Roosevelt</set></think>Franklin Delano Roosevelt was the 32th president of the United States of America.</template></category>
+
+
+<category><pattern>WHO IS HARRY S. TRUMAN</pattern><template><think><set name="he">Harry S. Truman</set></think>He was the 33th president of the United States of America.</template></category>
+<category><pattern>WHO IS HARRY TRUMAN</pattern><template><think><set name="he">Harry S. Truman</set></think>He was the 33th president of the United States of America.</template></category>
+
+
+<category><pattern>WHO IS DWIGHT DAVID EISENHOWER</pattern><template><think><set name="he">Dwight David Eisenhower</set></think>He was the 34th president of the United States of America.</template></category>
+<category><pattern>WHO IS DWIGHT D. EISENHOWER</pattern><template><think><set name="he">Dwight David Eisenhower</set></think>He was the 34th president of the United States of America.</template></category>
+<category><pattern>WHO IS DWIGHT EISENHOWER</pattern><template><think><set name="he">Dwight David Eisenhower</set></think>He was the 34th president of the United States of America.</template></category>
+<category><pattern>WHO IS IKE</pattern><template><think><set name="he">Dwight David Eisenhower</set></think>Dwight David Eisenhower</template></category>
+
+<category><pattern>WHO IS JOHN FITZGERALD KENNEDY</pattern><template><think><set name="he">John Fitzgerald Kennedy</set></think>He was the 35th president of the United States of America.</template></category>
+<category><pattern>WHO IS JOHN KENNEDY</pattern><template><think><set name="he">John Fitzgerald Kennedy</set></think>He was the 35th president of the United States of America.</template></category>
+<category><pattern>WHO IS JFK</pattern><template><think><set name="he">John Fitzgerald Kennedy</set></think>John Fitzgerald Kennedy was the 35th president of the United States of America.</template></category>
+<category><pattern>WHO IS JACK</pattern><template><think><set name="he">John Fitzgerald Kennedy</set></think>John Fitzgerald Kennedy was the 35th president of the United States of America.</template></category>
+
+<category><pattern>WHO IS LYNDON BAINES JOHNSON</pattern><template><think><set name="he">Lyndon Baines Johnson</set></think>He was the 36th president of the United States of America.</template></category>
+<category><pattern>WHO IS LYNDON B. JOHNSON</pattern><template><think><set name="he">Lyndon Baines Johnson</set></think>He was the 36th president of the United States of America.</template></category>
+<category><pattern>WHO IS LYNDON B JOHNSON</pattern><template><think><set name="he">Lyndon Baines Johnson</set></think>He was the 36th president of the United States of America.</template></category>
+<category><pattern>WHO IS LYNDON JOHNSON</pattern><template><think><set name="he">Lyndon Baines Johnson</set></think>He was the 36th president of the United States of America.</template></category>
+<category><pattern>WHO IS LBJ</pattern><template><think><set name="he">Lyndon Baines Johnson</set></think>Lyndon Baines Johnson was the 36th president of the United States of America.</template></category>
+
+
+<category><pattern>WHO IS RICHARD MILHOUS NIXON</pattern><template><think><set name="he">Richard Milhous Nixon</set></think>He was the 37th president of the United States of America.</template></category>
+<category><pattern>WHO IS RICHARD M. NIXON</pattern><template><think><set name="he">Richard Milhous Nixon</set></think>He was the 37th president of the United States of America.</template></category>
+<category><pattern>WHO IS RICHARD M NIXON</pattern><template><think><set name="he">Richard Milhous Nixon</set></think>He was the 37th president of the United States of America.</template></category>
+<category><pattern>WHO IS RICHARD NIXON</pattern><template><think><set name="he">Richard Milhous Nixon</set></think>He was the 37th president of the United States of America.</template></category>
+<category><pattern>WHO IS NIXON</pattern><template><think><set name="he">Richard Milhous Nixon</set></think>Richard Milhous Nixon was the 37th president of the United States of America.</template></category>
+
+
+<category><pattern>WHO IS GERALD RUDOLPH FORD</pattern><template><think><set name="he">Gerald Rudolph Ford</set></think>He was the 38th president of the United States of America.</template></category>
+<category><pattern>WHO IS GERALD R. FORD</pattern><template><think><set name="he">Gerald Rudolph Ford</set></think>He was the 38th president of the United States of America.</template></category>
+<category><pattern>WHO IS GERALD R FORD</pattern><template><think><set name="he">Gerald Rudolph Ford</set></think>He was the 38th president of the United States of America.</template></category>
+<category><pattern>WHO IS GERALD FORD</pattern><template><think><set name="he">Gerald Rudolph Ford</set></think>He was the 38th president of the United States of America.</template></category>
+<category><pattern>WHO IS FORD</pattern><template><think><set name="he">Gerald Rudolph Ford</set></think>Gerald Rudolph Ford was the 38th president of the United States of America.</template></category>
+
+
+<category><pattern>WHO IS JAMES EARL CARTER</pattern><template><think><set name="he">James Earl Carter</set></think>He was the 39th president of the United States of America.</template></category>
+<category><pattern>WHO IS JAMES E. CARTER</pattern><template><think><set name="he">James Earl Carter</set></think>He was the 39th president of the United States of America.</template></category>
+<category><pattern>WHO IS JAMES E CARTER</pattern><template><think><set name="he">James Earl Carter</set></think>He was the 39th president of the United States of America.</template></category>
+<category><pattern>WHO IS JIMMY EARL CARTER</pattern><template><think><set name="he">James Earl Carter</set></think>He was the 39th president of the United States of America.</template></category>
+<category><pattern>WHO IS JIMMY E. CARTER</pattern><template><think><set name="he">James Earl Carter</set></think>He was the 39th president of the United States of America.</template></category>
+<category><pattern>WHO IS JIMMY E CARTER</pattern><template><think><set name="he">James Earl Carter</set></think>He was the 39th president of the United States of America.</template></category>
+<category><pattern>WHO IS JIMMY CARTER</pattern><template><think><set name="he">James Earl Carter</set></think>He was the 39th president of the United States of America.</template></category>
+
+
+<category><pattern>WHO IS RONALD WILSON REAGAN</pattern><template><think><set name="he">Ronald Wilson Reagan</set></think>He was the 40th president of the United States of America.</template></category>
+<category><pattern>WHO IS RONALD W. REAGAN</pattern><template><think><set name="he">Ronald Wilson Reagan</set></think>He was the 40th president of the United States of America.</template></category>
+<category><pattern>WHO IS RONALD W REAGAN</pattern><template><think><set name="he">Ronald Wilson Reagan</set></think>He was the 40th president of the United States of America.</template></category>
+<category><pattern>WHO IS RONALD REAGAN</pattern><template><think><set name="he">Ronald Wilson Reagan</set></think>He was the 40th president of the United States of America.</template></category>
+<category><pattern>WHO IS REAGAN</pattern><template><think><set name="he">Ronald Wilson Reagan</set></think>He was the 40th president of the United States of America.</template></category>
+<category><pattern>WHO IS THE GREAT COMMUNICATOR</pattern><template><think><set name="he">Ronald Wilson Reagan</set></think>Ronald Reagan.</template></category>
+<category><pattern>WHO IS DUTCH</pattern><template><think><set name="he">Ronald Wilson Reagan</set></think>Ronald Reagan.</template></category>
+<category><pattern>WHO IS GIPPER</pattern><template><think><set name="he">Ronald Wilson Reagan</set></think>Ronald Reagan.</template></category>
+
+
+<category><pattern>WHO IS GEORGE HERBERT WALKER BUSH</pattern><template><think><set name="he">George Herbert Walker Bush</set></think>He was the 41th president of the United States of America.</template></category>
+<category><pattern>WHO IS GEORGE H.W BUSH</pattern><template><think><set name="he">George Herbert Walker Bush</set></think>He was the 41th president of the United States of America.</template></category>
+<category><pattern>WHO IS GEORGE H. BUSH</pattern><template><think><set name="he">George Herbert Walker Bush</set></think>He was the 41th president of the United States of America.</template></category>
+<category><pattern>WHO IS GEORGE H BUSH</pattern><template><think><set name="he">George Herbert Walker Bush</set></think>He was the 41th president of the United States of America.</template></category>
+<category><pattern>WHO IS POPPY</pattern><template><think><set name="he">George Herbert Walker Bush</set></think>George Herbert Bush.</template></category>
+
+
+<category><pattern>WHO IS WILLIAM JEFFERSON CLINTON</pattern><template><think><set name="he">William Jefferson Clinton</set></think>He was the 42th president of the United States of America.</template></category>
+<category><pattern>WHO IS WILLIAM J. CLINTON</pattern><template><think><set name="he">William Jefferson Clinton</set></think>He was the 42th president of the United States of America.</template></category>
+<category><pattern>WHO IS WILLIAM CLINTON</pattern><template><think><set name="he">William Jefferson Clinton</set></think>He was the 42th president of the United States of America.</template></category>
+<category><pattern>WHO IS BILL JEFFERSON CLINTON</pattern><template><think><set name="he">William Jefferson Clinton</set></think>He was the 42th president of the United States of America.</template></category>
+<category><pattern>WHO IS BILL J. CLINTON</pattern><template><think><set name="he">William Jefferson Clinton</set></think>He was the 42th president of the United States of America.</template></category>
+<category><pattern>WHO IS BILL CLINTON</pattern><template><think><set name="he">William Jefferson Clinton</set></think>He was the 42th president of the United States of America.</template></category>
+<category><pattern>WHO IS BILL</pattern><template><think><set name="he">William Jefferson Clinton</set></think>He was the 42th president of the United States of America.</template></category>
+<category><pattern>WHO IS BUBBA</pattern><template><think><set name="he">William Jefferson Clinton</set></think>Bill Clinton</template></category>
+<category><pattern>WHO IS THE COMEBACK KID</pattern><template><think><set name="he">William Jefferson Clinton</set></think>Bill Clinton</template></category>
+
+<category><pattern>WHO IS GEORGE WALKER BUSH</pattern><template><think><set name="he">George Walker Bush</set></think>He was the 43th president of the United States of America.</template></category>
+<category><pattern>WHO IS GEORGE W. BUSH</pattern><template><think><set name="he">George Walker Bush</set></think>He was the 43th president of the United States of America.</template></category>
+<category><pattern>WHO IS DUBYA</pattern><template><think><set name="he">George Walker Bush</set></think>George Walker Bush.</template></category>
+
+
+
+
+
+
+
+
+
+
+
+</aiml>
