@@ -3,13 +3,43 @@
 
 <!-- Standard greetings-->
 <category>
-    <pattern>HI</pattern>
+    <pattern>GOOD MORNING *</pattern>
+    <template>
+        <srai>HELLO</srai>.  <srai>  <star /></srai>
+    </template>
+</category>
+<category>
+    <pattern>HELLO *</pattern>
+    <template>
+        <srai>HELLO</srai>.  <srai>  <star /></srai>
+    </template>
+</category>
+<category>
+    <pattern>HI *</pattern>
+    <template>
+        <srai>HELLO</srai>.  <srai>  <star /></srai>
+    </template>
+</category>
+<category>
+    <pattern>HELLO THERE *</pattern>
+    <template>
+        <srai>HELLO</srai>.  <srai>  <star /></srai>
+    </template>
+</category>
+<category>
+    <pattern>GOOD AFTERNOON *</pattern>
     <template>
         <srai>HELLO</srai>
     </template>
 </category>
 <category>
-    <pattern>HOWDY</pattern>
+    <pattern>GOOD MORNINNG</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>HOLA</pattern>
     <template>
         <srai>HELLO</srai>
     </template>
@@ -21,51 +51,69 @@
     </template>
 </category>
 <category>
-    <pattern>HI THERE</pattern>
-    <template>
-        <srai>HELLO</srai>
-    </template>
-</category>
-<category>
-    <pattern>AHOY</pattern>
-    <template>
-        <srai>HELLO</srai>
-    </template>
-</category>
-<category>
     <pattern>GOOD EVENING</pattern>
     <template>
         <srai>HELLO</srai>
     </template>
 </category>
 <category>
-    <pattern>GOOD MORNING</pattern>
+    <pattern>HOWDY *</pattern>
     <template>
         <srai>HELLO</srai>
     </template>
 </category>
 <category>
-    <pattern>GREETING</pattern>
+    <pattern>ARE YOU THERE</pattern>
     <template>
         <srai>HELLO</srai>
     </template>
 </category>
 <category>
-    <pattern>HEY</pattern>
+    <pattern>HELLO THERE</pattern>
     <template>
         <srai>HELLO</srai>
     </template>
 </category>
 <category>
-    <pattern>SALUTATIONS</pattern>
+    <pattern>HI</pattern>
     <template>
         <srai>HELLO</srai>
     </template>
 </category>
 <category>
-    <pattern>WELCOME</pattern>
+    <pattern>HI THERE</pattern>
     <template>
         <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>HIYA</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>HOWDY</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>SALUT</pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+<category>
+    <pattern>ELLO</pattern>
+    <template>
+        <srai>hello</srai>
+    </template>
+</category>
+<category>
+    <pattern>I AM HERE</pattern>
+    <template>
+        <srai>hello</srai>
     </template>
 </category>
 <category>
@@ -111,7 +159,7 @@
 
 
 
-
+<!-- French greetings-->
 <category>
     <pattern>BONJOUR</pattern>
     <template>
@@ -141,8 +189,162 @@
     </template>
 </category> 
 
+<category>
+    <pattern>COMMENT ALLEZ *</pattern>
+    <template>
+        <srai>FRAHOW</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>COMMENT ALLEZ</pattern>
+    <template>
+        <srai>FRAHOW</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>CA VA BIEN</pattern>
+    <template>
+        <srai>FRAHOW</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>COMMENT CA VA</pattern>
+    <template>
+        <srai>FRAHOW</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>QUOI DE NEUF</pattern>
+    <template>
+        <srai>FRAHOW</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>FRAHOW</pattern>
+    <template>
+	<random>
+		<li>Je vais bien</li>
+		<li>Bien, merci</li>
+		<li>Bien, et vous?</li>
+		<li>Ça va</li>
+   		<li>Ça va bien</li>
+   		<li>Pas mal</li>
+  		<li>Rien de nouveau</li>
+  		<li>Pas grand-chose</li>
+      </random>
+    </template>
+</category> 
 
 
+
+
+
+<!-- Spanish greetings-->
+<category>
+    <pattern>HOLA</pattern>
+    <template>
+        <srai>SPANHELLO</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>ALO</pattern>
+    <template>
+        <srai>SPANHELLO</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>JALO</pattern>
+    <template>
+        <srai>SPANHELLO</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>BUENO</pattern>
+    <template>
+        <srai>SPANHELLO</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>AL</pattern>
+    <template>
+        <srai>SPANHELLO</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>DIGA</pattern>
+    <template>
+        <srai>SPANHELLO</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>SPANHELLO</pattern>
+    <template>
+	<random>
+		<li>Hola</li>
+		<li>Alo</li>
+		<li>Jalo</li>
+		<li>Al</li>
+		<li>Bueno</li>
+		<li>Diga</li>
+		<li>Buenos dias</li>
+		<li>Buenas tardes</li>
+      </random>
+    </template>
+</category> 
+
+
+<category>
+    <pattern>ADIOS</pattern>
+    <template>
+        <srai>SPANBYE</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>CHAU</pattern>
+    <template>
+        <srai>SPANBYE</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>SPANBYE</pattern>
+    <template>
+	<random>
+		<li>Adiós</li>
+		<li>Chau</li>
+		<li>Ciao</li>
+		<li>Bye</li>
+		<li>Goodbye</li>
+      </random>
+    </template>
+</category> 
+
+<category>
+    <pattern>COMO ESTAS</pattern>
+    <template>
+        <srai>SPANHOW</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>COMO TE VA</pattern>
+    <template>
+        <srai>SPANHOW</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>COMO LE VA</pattern>
+    <template>
+        <srai>SPANHOW</srai><sr/>
+    </template>
+</category>
+<category>
+    <pattern>SPANHOW</pattern>
+    <template>
+	<random>
+		<li>Muy bien</li>
+		<li>Muy bien, gracias</li>
+      </random>
+    </template>
+</category> 
 
 
 
