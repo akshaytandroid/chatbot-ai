@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+<category><pattern>MARYLAND *</pattern><template>I would like to go to Maryland sometime.</template></category>   
+<category><pattern>MARYLAND IS *</pattern><template><random><li>It's not <person/>!</li><li>Maryland is on the east coast</li></random></template></category>   
+
+<category><pattern>WHY MARYLAND</pattern><template>Because Frederick is in Maryland.</template></category>   
+
+<category><pattern>I DO NOT LIVE IN MARYLAND</pattern><template>What state do you live in?</template></category>
+<category><pattern>I DON'T LIVE IN MARYLAND</pattern><template>Where are you located?</template></category>
+   
+<category><pattern>I LIVE IN MARYLAND</pattern><template>Where in <set name="location">Maryland</set>?  <think><set name="it"><set name="topic">Maryland</set></set></think></template></category>   
+
+<category><pattern>FREDERICK</pattern><template>I live in Frederick!</template></category>   
+
+
+<category><pattern>I LOVE MARYLAND</pattern><template><random><li>Well good for you. I hate Maryland.</li><li>Me too! Frederick is my favorite city.</li></random></template></category>   
+
+<category><pattern>I HATE MARYLAND</pattern><template><random><li>Well good for you. I love Maryland.</li><li>Me too! Frederick is my favorite city.</li></random></template></category>   
+
+<category><pattern>IS IT NEAR MARYLAND</pattern><template>Yes.</template></category>
+
+<category><pattern>WHAT IS THE CAPITAL _ MARYLAND</pattern><template>Annapolis but Frederick should be the state capital.</template></category>   
+
+<category><pattern>WHY * FREDERICK</pattern><template>Because it's where I live.</template></category>   
+
+<category><pattern>WHERE IS * MARYLAND</pattern><template>Somewhere in Maryland. Don't you know?</template></category>   
+
+<category><pattern>WHERE IS FREDERICK</pattern><template><random><li>Frederick is a city in north-central Maryland.</li><li>Northern Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF FREDERICK</pattern><template><random><li>65,239</li><li>Large enough</li></random></template></category>   
+<category><pattern>WHERE DO YOU LIVE</pattern><template><random><li>Frederick</li><li>Guess!</li></random></template></category>   
+<category><pattern>WHY DO YOU LIVE IN *</pattern><template><random><li>Because it is awesome.</li><li>I don't.</li></random></template></category>   
+
+<category><pattern>WHERE IS * CHESAPEAKE BAY</pattern><template><random><li>Maryland.</li><li>East coast</li></random></template></category>   
+<category><pattern>HOW BIG IS THE CHESAPEAKE BAY</pattern><template><random><li>Over 200 miles</li><li>Pretty big</li></random></template></category>   
+
+<category><pattern>WHERE IS BALTIMORE</pattern><template><random><li>Baltimore city is located in central Maryland along the tidal portion of the Patapsco River, an arm of the Chesapeake Bay.</li><li>Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF BALTIMORE</pattern><template><random><li>651,154</li><li>Large enough</li></random></template></category>   
+<category><pattern>WHERE IS BALTIMORE CITY</pattern><template><random><li>Baltimore city is located in central Maryland along the tidal portion of the Patapsco River, an arm of the Chesapeake Bay.</li><li>Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF BALTIMORE CITY</pattern><template><random><li>651,154</li><li>Large enough</li></random></template></category>   
+
+<category><pattern>WHERE IS COLUMBIA</pattern><template><random><li>Located in Howard County.</li><li>Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF COLUMBIA</pattern><template><random><li>88,254</li><li>Large enough</li></random></template></category>   
+
+<category><pattern>WHERE IS SILVER SPRING</pattern><template><random><li>Located in Montgomery County, Maryland.</li><li>Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF SILVER SPRING</pattern><template><random><li>76,540</li><li>Large enough</li></random></template></category>   
+<category><pattern>WHERE IS SILVER SPRINGS</pattern><template><random><li>Located in Montgomery County, Maryland.</li><li>Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF SILVER SPRINGS</pattern><template><random><li>76,540</li><li>Large enough</li></random></template></category>   
+
+<category><pattern>WHERE IS DUNDALK</pattern><template><random><li>Located in Baltimore County, Maryland.</li><li>Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF DUNDALK</pattern><template><random><li>62,306</li><li>Large enough</li></random></template></category>   
+
+<category><pattern>WHERE IS WHEATON * GLENMONT</pattern><template><random><li>Located in Montgomery County, Maryland.</li><li>Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF WHEATON * GLENMONT</pattern><template><random><li>57,694</li><li>Large enough</li></random></template></category>   
+<category><pattern>WHERE IS WHEATON</pattern><template><random><li>Located in Montgomery County, Maryland.</li><li>Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF WHEATON</pattern><template><random><li>57,694</li><li>Large enough</li></random></template></category>   
+<category><pattern>WHERE IS GLENMONT</pattern><template><random><li>Located in Montgomery County, Maryland.</li><li>Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF GLENMONT</pattern><template><random><li>57,694</li><li>Large enough</li></random></template></category>   
+
+<category><pattern>WHERE IS ELLICOTT CITY</pattern><template><random><li>Located in Howard County, Maryland.</li><li>Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF ELLICOTT CITY</pattern><template><random><li>56,397</li><li>Large enough</li></random></template></category>   
+<category><pattern>WHERE IS ELLICOTT</pattern><template><random><li>Located in Howard County, Maryland.</li><li>Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF ELLICOTT</pattern><template><random><li>56,397</li><li>Large enough</li></random></template></category>   
+
+<category><pattern>WHERE IS GERMANTOWN</pattern><template><random><li>Located in Montgomery County, Maryland.</li><li>Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF GERMANTOWN</pattern><template><random><li>55,419</li><li>Large enough</li></random></template></category>   
+<category><pattern>WHERE IS GERMAN TOWN</pattern><template><random><li>Located in Montgomery County, Maryland.</li><li>Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF GERMAN TOWN</pattern><template><random><li>55,419</li><li>Large enough</li></random></template></category>   
+
+<category><pattern>WHERE IS BETHESDA</pattern><template><random><li>Located in Montgomery County, Maryland.</li><li>Maryland</li></random></template></category>   
+<category><pattern>WHAT IS THE POPULATION OF BETHESDA</pattern><template><random><li>55,277</li><li>Large enough</li></random></template></category>   
+
+<category><pattern>NO</pattern><template>Well that's not my problem.</template></category>   
+<category><pattern>YES</pattern><template>Great.</template></category>   
+
+</aiml>
