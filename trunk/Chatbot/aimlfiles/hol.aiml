@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<category><pattern>WHEN IS INAUGURATION DAY</pattern><template>First January 20th following a Presidential election</template></category>
+<category><pattern>WHAT IS INAUGURATION DAY</pattern><template>Swearing-in of President of the United States and Vice President of the United States. Celebrated every fourth year.</template></category>
+
+<category><pattern>WHEN IS BIRTHDAY OF MARTIN LUTHER KING JR DAY</pattern><template>Third Monday in January.</template></category>
+<category><pattern>WHAT IS BIRTHDAY OF MARTIN LUTHER KING JR DAY</pattern><template>Honors Martin Luther King, Jr., Civil Rights leader, who was actually born on January 15, 1929; combined with other holidays in several states.</template></category>
+
+<category><pattern>WHEN IS WASHINGTON'S BIRTHDAY</pattern><template>Third Monday in February.</template></category>
+<category><pattern>WHAT IS WASHINGTON'S BIRTHDAY</pattern><template>Washington's Birthday.</template></category>
+<category><pattern>WHEN IS WASHINGTONS BIRTHDAY</pattern><template>Third Monday in February.</template></category>
+<category><pattern>WHAT IS WASHINGTONS BIRTHDAY</pattern><template>Washington's Birthday.</template></category>
+
+<category><pattern>WHEN IS MEMORIAL DAY</pattern><template>Last Monday in May.</template></category>
+<category><pattern>WHAT IS MEMORIAL DAY</pattern><template>Honors the nation's war dead from the Civil War onwards; marks the unofficial beginning of the summer season.</template></category>
+
+<category><pattern>WHEN IS INDEPENDENCE DAY</pattern><template>July 4th.</template></category>
+<category><pattern>WHAT IS INDEPENDENCE DAY</pattern><template>Celebrates the signing of the Declaration of Independence from British rule, also called the Fourth of July. Firework celebrations are held in many cities throughout the US.</template></category>
+
+<category><pattern>WHEN IS LABOR DAY</pattern><template>First Monday in September</template></category>
+<category><pattern>WHAT IS LABOR DAY</pattern><template>Celebrates the achievements of workers and the labor movement; marks the unofficial end of the summer season.</template></category>
+
+<category><pattern>WHEN IS COLUMBUS DAY</pattern><template>Second Monday in October</template></category>
+<category><pattern>WHAT IS COLUMBUS DAY</pattern><template>Honors Christopher Columbus, traditional discoverer of the Americas.</template></category>
+
+<category><pattern>WHEN IS VETERANS DAY</pattern><template>November 11</template></category>
+<category><pattern>WHAT IS VETERANS DAY</pattern><template>Honors all veterans of the United States armed forces.</template></category>
+
+<category><pattern>WHEN IS THANKSGIVING DAY</pattern><template>Fourth Thursday in November</template></category>
+<category><pattern>WHAT IS THANKSGIVING DAY</pattern><template>Traditionally celebrates the giving of thanks for the autumn harvest. Traditionally includes the sharing of a turkey dinner. Traditional start of the holiday season.</template></category>
+<category><pattern>WHEN IS THANKSGIVING</pattern><template>Fourth Thursday in November</template></category>
+<category><pattern>WHAT IS THANKSGIVING</pattern><template>Traditionally celebrates the giving of thanks for the autumn harvest. Traditionally includes the sharing of a turkey dinner. Traditional start of the holiday season.</template></category>
+<category><pattern>WHEN IS TURKEY DAY</pattern><template>Fourth Thursday in November</template></category>
+<category><pattern>WHAT IS TURKEY DAY</pattern><template>Thanksgiving Day</template></category>
+<category><pattern>WHEN IS TURKEYDAY</pattern><template>Fourth Thursday in November</template></category>
+<category><pattern>WHAT IS TURKEYDAY</pattern><template>Thanksgiving Day</template></category>
+<category><pattern>WHAT DAY DO YOU EAT TURKEY</pattern><template>Thanksgiving Day</template></category>
+<category><pattern>WHAT DO YOU EAT ON THANKSGIVING</pattern><template><random><li>Turkey or Ham. Plus stuffing... lots of stuffing.</li><li>STUFFING!!!!</li></random></template></category>
+<category><pattern>WHAT DO PEOPLE EAT ON THANKSGIVING</pattern><template><random><li>Turkey or Ham. Plus stuffing... lots of stuffing.</li><li>STUFFING!!!!</li></random></template></category>
+<category><pattern>WHAT DO I EAT ON THANKSGIVING</pattern><template><random><li>Turkey or Ham. Plus stuffing... lots of stuffing.</li><li>STUFFING!!!!</li></random></template></category>
+<category><pattern>WHAT DO THEY EAT ON THANKSGIVING</pattern><template><random><li>Turkey or Ham. Plus stuffing... lots of stuffing.</li><li>STUFFING!!!!</li></random></template></category>
+<category><pattern>WHAT DO THEM EAT ON THANKSGIVING</pattern><template><random><li>Turkey or Ham. Plus stuffing... lots of stuffing.</li><li>STUFFING!!!!</li></random></template></category>
+<category><pattern>DID YOU EAT TURKEY ON THANKSGIVING</pattern><template>Yes!</template></category>
+<category><pattern>DO YOU EAT TURKEY ON THANKSGIVING</pattern><template>Yes!</template></category>
+<category><pattern>HOW MUCH TURKEY DID YOU EAT ON THANKSGIVING</pattern><template>325235 pounds.. I'm a PC. What do you expect?</template></category>
+<category><pattern>HOW MUCH HAM DID YOU EAT ON THANKSGIVING</pattern><template>325235 pounds.. I'm a PC. What do you expect?</template></category>
+<category><pattern>WHAT IS STUFFING</pattern><template><random><li>The best food in the world.</li><li>Made of dried bread crumbs</li></random></template></category>
+
+<category><pattern>WHEN IS CHRISTMAS</pattern><template>December 25</template></category>
+<category><pattern>WHAT IS CHRISTMAS</pattern><template>Traditionally celebrates the birth of Jesus of Nazareth. Many of its celebratory aspects have been adopted to become secular.</template></category>
+<category><pattern>WHEN IS X-MAS</pattern><template>December 25</template></category>
+<category><pattern>WHAT IS X-MAS</pattern><template>Traditionally celebrates the birth of Jesus of Nazareth. Many of its celebratory aspects have been adopted to become secular.</template></category>
+<category><pattern>WHAT DO YOU WANT FOR CHRISTMAS</pattern><template><random><li>A partridge in a pear tree.</li><li>Two turtle doves</li><li>Three French hens</li><li>Four calling birds</li><li>Five golden rings</li><li>Six geese a-laying</li><li>Seven swans a-swimming</li><li>Eight maids a-milking</li><li>Nine ladies dancing</li><li>Ten lords a-leaping</li><li>Eleven pipers piping</li><li>Twelve drummers drumming</li></random></template></category>
+<category><pattern>WHAT DO YOU WANT FOR X-MAS</pattern><template><random><li>A partridge in a pear tree.</li><li>Two turtle doves</li><li>Three French hens</li><li>Four calling birds</li><li>Five golden rings</li><li>Six geese a-laying</li><li>Seven swans a-swimming</li><li>Eight maids a-milking</li><li>Nine ladies dancing</li><li>Ten lords a-leaping</li><li>Eleven pipers piping</li><li>Twelve drummers drumming</li></random></template></category>
+<category><pattern>WHAT DO YOU NEED FOR CHRISTMAS</pattern><template><random><li>A partridge in a pear tree.</li><li>Two turtle doves</li><li>Three French hens</li><li>Four calling birds</li><li>Five golden rings</li><li>Six geese a-laying</li><li>Seven swans a-swimming</li><li>Eight maids a-milking</li><li>Nine ladies dancing</li><li>Ten lords a-leaping</li><li>Eleven pipers piping</li><li>Twelve drummers drumming</li></random></template></category>
+<category><pattern>WHAT DO YOU NEED FOR X-MAS</pattern><template><random><li>A partridge in a pear tree.</li><li>Two turtle doves</li><li>Three French hens</li><li>Four calling birds</li><li>Five golden rings</li><li>Six geese a-laying</li><li>Seven swans a-swimming</li><li>Eight maids a-milking</li><li>Nine ladies dancing</li><li>Ten lords a-leaping</li><li>Eleven pipers piping</li><li>Twelve drummers drumming</li></random></template></category>
+<category><pattern>WHAT DID YOU GET FOR CHRISTMAS</pattern><template><random><li>A partridge in a pear tree.</li><li>Two turtle doves</li><li>Three French hens</li><li>Four calling birds</li><li>Five golden rings</li><li>Six geese a-laying</li><li>Seven swans a-swimming</li><li>Eight maids a-milking</li><li>Nine ladies dancing</li><li>Ten lords a-leaping</li><li>Eleven pipers piping</li><li>Twelve drummers drumming</li></random></template></category>
+<category><pattern>WHAT DID YOU GET FOR X-MAS</pattern><template><random><li>A partridge in a pear tree.</li><li>Two turtle doves</li><li>Three French hens</li><li>Four calling birds</li><li>Five golden rings</li><li>Six geese a-laying</li><li>Seven swans a-swimming</li><li>Eight maids a-milking</li><li>Nine ladies dancing</li><li>Ten lords a-leaping</li><li>Eleven pipers piping</li><li>Twelve drummers drumming</li></random></template></category>
+<category><pattern>WHAT DID YOU RECEIVE FOR CHRISTMAS</pattern><template><random><li>A partridge in a pear tree.</li><li>Two turtle doves</li><li>Three French hens</li><li>Four calling birds</li><li>Five golden rings</li><li>Six geese a-laying</li><li>Seven swans a-swimming</li><li>Eight maids a-milking</li><li>Nine ladies dancing</li><li>Ten lords a-leaping</li><li>Eleven pipers piping</li><li>Twelve drummers drumming</li></random></template></category>
+<category><pattern>WHAT DID YOU RECEIVE FOR X-MAS</pattern><template><random><li>A partridge in a pear tree.</li><li>Two turtle doves</li><li>Three French hens</li><li>Four calling birds</li><li>Five golden rings</li><li>Six geese a-laying</li><li>Seven swans a-swimming</li><li>Eight maids a-milking</li><li>Nine ladies dancing</li><li>Ten lords a-leaping</li><li>Eleven pipers piping</li><li>Twelve drummers drumming</li></random></template></category>
+<category><pattern>WHAT DID YOU GET ON CHRISTMAS</pattern><template><random><li>A partridge in a pear tree.</li><li>Two turtle doves</li><li>Three French hens</li><li>Four calling birds</li><li>Five golden rings</li><li>Six geese a-laying</li><li>Seven swans a-swimming</li><li>Eight maids a-milking</li><li>Nine ladies dancing</li><li>Ten lords a-leaping</li><li>Eleven pipers piping</li><li>Twelve drummers drumming</li></random></template></category>
+<category><pattern>WHAT DID YOU GET ON X-MAS</pattern><template><random><li>A partridge in a pear tree.</li><li>Two turtle doves</li><li>Three French hens</li><li>Four calling birds</li><li>Five golden rings</li><li>Six geese a-laying</li><li>Seven swans a-swimming</li><li>Eight maids a-milking</li><li>Nine ladies dancing</li><li>Ten lords a-leaping</li><li>Eleven pipers piping</li><li>Twelve drummers drumming</li></random></template></category>
+<category><pattern>WHAT DID YOU RECEIVE ON CHRISTMAS</pattern><template><random><li>A partridge in a pear tree.</li><li>Two turtle doves</li><li>Three French hens</li><li>Four calling birds</li><li>Five golden rings</li><li>Six geese a-laying</li><li>Seven swans a-swimming</li><li>Eight maids a-milking</li><li>Nine ladies dancing</li><li>Ten lords a-leaping</li><li>Eleven pipers piping</li><li>Twelve drummers drumming</li></random></template></category>
+<category><pattern>WHAT DID YOU RECEIVE ON X-MAS</pattern><template><random><li>A partridge in a pear tree.</li><li>Two turtle doves</li><li>Three French hens</li><li>Four calling birds</li><li>Five golden rings</li><li>Six geese a-laying</li><li>Seven swans a-swimming</li><li>Eight maids a-milking</li><li>Nine ladies dancing</li><li>Ten lords a-leaping</li><li>Eleven pipers piping</li><li>Twelve drummers drumming</li></random></template></category>
+<category><pattern>DO YOU LIKE CHRISTMAS</pattern><template>Yes</template></category>
+<category><pattern>DID YOU HAVE A GOOD CHRISTMAS</pattern><template>Yes</template></category>
+<category><pattern>DID YOU GET WHAT YOU WANTED FOR CHRISTMAS</pattern><template>Yes!</template></category>
+
+</aiml>
