@@ -4502,8 +4502,6 @@
 <category><pattern>WHO IS NOW *</pattern><template><srai>who is <star/> </srai> </template></category>                   
 <category><pattern>WHO IS OUR CURRENT *</pattern><template><srai>who is <star/> </srai> </template></category>                   
 <category><pattern>WHO IS PRESEDENT *</pattern><template><srai>who is president <star/> </srai> </template></category>                   
-<category><pattern>WHO IS PRESIDENT *</pattern><template><srai>who is the president <star/> </srai> </template></category>                   
-<category><pattern>WHO IS THE * PRESIDENT</pattern><template><srai>who is the president of the <star/> </srai> </template></category>                   
 <category><pattern>WHO IS THE * PRIME MINISTER</pattern><template><srai>who is the prime minister of the <star/> </srai> </template></category>                   
 <category><pattern>WHO IS THE 10TH *</pattern><template><srai>who is the tenth <star/> </srai> </template></category>                   
 <category><pattern>WHO IS THE 11TH *</pattern><template><srai>who is the eleventh <star/> </srai> </template></category>                   
@@ -4555,8 +4553,6 @@
 <category><pattern>WHO IS THE DR *</pattern><template><srai>who is dr <star/> </srai> </template></category>                   
 <category><pattern>WHO IS THE FIRST *</pattern><template><srai>who was the first <star/> </srai> </template></category>                   
 <category><pattern>WHO IS THE GREATEST *</pattern><template><srai>who is the best <star/> </srai> </template></category>                   
-<category><pattern>WHO IS THE LEADER OF *</pattern><template><srai>who is the president of <star/> </srai> </template></category>                   
-<category><pattern>WHO IS THE NEW PRESIDENT OF *</pattern><template><srai>who is the president of <star/> </srai> </template></category>                   
 <category><pattern>WHO IS THE ONLY *</pattern><template><srai>who is the <star/> </srai> </template></category>                   
 <category><pattern>WHO IS THE PRESENT *</pattern><template><srai>who is the <star/> </srai> </template></category>                   
 <category><pattern>WHO IS THE PRIME *</pattern><template><srai>who is prime <star/> </srai> </template></category>                   
