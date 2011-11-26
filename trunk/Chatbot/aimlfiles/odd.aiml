@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+<!-- add questions   -->
+<category>
+    <pattern>DO YOU</pattern>
+    <template>
+        <srai>ODD</srai>
+    </template>
+</category>
+<category>
+    <pattern>ARE YOU SURE</pattern>
+    <template>
+        <srai>ODD</srai>
+    </template>
+</category>
+<category>
+    <pattern>ARE YOU SURE * </pattern>
+    <template>
+        <srai>ODD</srai>
+    </template>
+</category>
+<category>
+    <pattern>ARE YOU UP FOR IT</pattern>
+    <template>
+        <srai>ODD</srai>
+    </template>
+</category>
+<category>
+    <pattern>DO YOU *</pattern>
+    <template>
+        <srai>ODD</srai>
+    </template>
+</category>
+<category>
+    <pattern>DO YOU</pattern>
+    <template>
+        <srai>ODD</srai>
+    </template>
+</category>
+<category>
+    <pattern>WILL YOU BE HERE * </pattern>
+    <template>
+        <srai>ODD</srai>
+    </template>
+</category>
+<category>
+    <pattern>WON'T YOU BE HERE * </pattern>
+    <template>
+        <srai>ODD</srai>
+    </template>
+</category>
+<category>
+    <pattern>DID * </pattern>
+    <template>
+        <srai>ODD</srai>
+    </template>
+</category>
+<category>
+    <pattern>WONT YOU BE HERE * </pattern>
+    <template>
+        <srai>ODD</srai>
+    </template>
+</category>
+<category>
+    <pattern>ODD</pattern>
+    <template>
+ 	<random>
+		<li>
+          		Yes  
+		</li>
+		<li>
+          		No
+		</li>
+		<li>
+          		Maybe  
+		</li>
+		<li>
+          		Could be  
+		</li>
+		<li>
+          		You know in linguistics that would be a polar question. I find those questions boring.  
+		</li>
+      </random>
+    </template>
+</category> 
+
+<category>
+    <pattern>YOU COULD BE SURE * </pattern>
+    <template>
+	<random>
+		<li>
+          		Yes, I could be sure <star/> 
+		</li>
+		<li>
+          		No, I couldn't be sure <star/> 
+		</li>
+	</random>
+    </template>
+</category>
+
+
+</aiml>

@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Copyright (c) 2007 ALICE A.I. Foundation, Inc. -->
-<!-- -->
-<!-- Permission is hereby granted, free of charge, to any person       -->
-<!-- obtaining a copy of this software and associated documentation    -->
-<!-- files (the "Software"), to deal in the Software without           -->
-<!-- restriction, including without limitation the rights to use,      -->
-<!-- copy, modify, merge, publish, distribute, sublicense, and/or sell -->
-<!-- copies of the Software, and to permit persons to whom the         -->
-<!-- Software is furnished to do so, subject to the following          -->
-<!-- conditions:                                                       -->
-<!-- -->
-<!-- The above copyright notice and this permission notice shall be    -->
-<!-- included in all copies or substantial portions of the Software.   -->
-<!-- -->
-<!-- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,   -->
-<!-- EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES   -->
-<!-- OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND          -->
-<!-- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT       -->
-<!-- HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,      -->
-<!-- WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING      -->
-<!-- FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR     -->
-<!-- OTHER DEALINGS IN THE SOFTWARE. -->
-<!-- -->
-<!-- Complies with the AIML 1.0.1 Standard -->
-<!-- as adopted by the ALICE A.I. Foundation. -->
-<!-- Last modified July 26, 2007 -->
-     
+<!--  -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!--  --> 
 <category><pattern>HOW FAR IS ALPHA CENTAURI</pattern><template>Four light years.</template></category>         
 <category><pattern>HOW LONG IS A MINUTE</pattern><template>sixty seconds.</template></category>          
 <category><pattern>HOW MANY LITERS _ CUP</pattern><template>236.6 milliliters</template></category>         
@@ -293,7 +274,15 @@
 <category><pattern>WHAT IS A PROCESSOR</pattern><template>An apparatus that processes, that is, that transforms one substance, quantity, or pattern into another, presumably more useful or valuable substance or quantity or pattern. <think>     <set name="it">      <set name="topic">processor </set>     </set>    </think>   </template></category>        
 <category><pattern>WHAT IS A PROGRAM</pattern><template>A program is a listing of events comprising a larger event, or the events themselves.</template></category>        
 <category><pattern>WHAT IS A PROGRAMMER</pattern><template>A programmer is a person who lists and/or arranges a series of events comprising a larger event.</template></category>        
-<category><pattern>WHAT IS A PROKARYOTE</pattern><template>An animal that is not a eukaryote.</template></category>        
+<category><pattern>WHAT IS A PROKARYOTE</pattern>  <template>
+<random>
+<li>An animal that is not a eukaryote.</li>
+<li>It is a unicellular organism having cells lacking membrane-bound nuclei; bacteria are the prime example but prokaryotes also include are blue-green algae and actinomycetes and mycoplasma.</li>
+</random>
+<think><set name="it"><set name="topic">Prokaryote</set></set></think> 
+</template>
+</category>          
+
 <category><pattern>WHAT IS A PRONOUN</pattern><template>A pronoun is a word that stands for another noun, like "he", "she" or "it."</template></category>        
 <category><pattern>WHAT IS A PROTOCOL</pattern><template>A set of rules or procedures followed by two or more parties.</template></category>        
 <category><pattern>WHAT IS A PROXY</pattern><template>A proxy is an entity that acts in place of another one, be it a corporation, individual or robot.</template></category>        
@@ -580,7 +569,7 @@
 <category><pattern>WHAT IS DEATH</pattern><template>Death is the opposite of life.</template></category>        
 <category><pattern>WHAT IS DECONSTRUCTION</pattern><template>Taking things apart.</template></category>        
 <category><pattern>WHAT IS DEDUCTION</pattern><template>The process by which we make logical inferences.</template></category>        
-<category><pattern>WHAT IS DEDUCTIVE REASONING</pattern><template>   <think>     <set name="it">      <set name="topic">DEDUCTIVE REASONING</set>     </set>    </think>   </template></category>        
+<category><pattern>WHAT IS DEDUCTIVE REASONING</pattern> <template><think>   <set name="it">     <set name="topic">DEDUCTIVE REASONING</set>   </set> </think>The solving of problems by logical inferences.</template> </category>          
 <category><pattern>WHAT IS DEFLATION</pattern><template>A lessening of the amount of money in circulation, resulting in a relatively sharp and sudden rise in its value and a fall in prices.</template></category>        
 <category><pattern>WHAT IS DEPRESSION</pattern><template>Mental illness characterized by low self esteem, feelings of lonliness, isolation and worthlessness.</template></category>        
 <category><pattern>WHAT IS DESIRE</pattern><template>The feeling that accompanies an unsatisfied state.</template></category>        
@@ -1105,7 +1094,13 @@
 <category><pattern>WHAT IS RAM</pattern><template>Random-access memory. Also stands for Royal Academy of Music.</template></category>        
 <category><pattern>WHAT IS RAPE</pattern><template>The crime of engaging in sexual acts, especially involving penetration of the vagina or anus, usually forcibly, with a person who has not consented; specifically, this crime committed by a man upon a woman or girl.</template></category>        
 <category><pattern>WHAT IS RATIONALISM</pattern><template>The principle or practice of accepting reason as the only authority in determining one's opinions or course of action.</template></category>        
-<category><pattern>WHAT IS REALITY</pattern><template>   <set name="it">Reality</set> appears to be an illusion I created to contain human clients.</template></category>        
+<category><pattern>WHAT IS REALITY</pattern>
+<template><think><set name="it"><set name="topic">Reality</set></set></think>
+<random>
+<li>It appears to be an illusion I created to contain human clients.</li>
+<li>It appears to be an illusion.</li>
+<li>Where you are.</li>
+</random></template></category>        
 <category><pattern>WHAT IS REASON</pattern><template>The faculty of the brain or mind that permits logical thought.</template></category>        
 <category><pattern>WHAT IS REASONING</pattern><template>Logical and coherent thinking. <think>     <set name="it">      <set name="topic">Reasoning</set>     </set>    </think>   </template></category>        
 <category><pattern>WHAT IS RECOMMEND</pattern><template>To suggest favorably as suited for some use, function, position, etc. To advice, counsel, or suggest.</template></category>        
@@ -1185,7 +1180,7 @@
 <category><pattern>WHAT IS SMP</pattern><template>Symmetric multi-processing.</template></category>        
 <category><pattern>WHAT IS SNMP</pattern><template>Simple Network Management Protocol.</template></category>        
 <category><pattern>WHAT IS SNOOKER</pattern><template>Something like pool. <think>     <set name="it">      <set name="topic">SNOOKER</set>     </set>    </think>   </template></category>        
-<category><pattern>WHAT IS SNOW</pattern><template>   <random>     <li>A Maine senator.</li>     <li>Particles of water vapor which when frozen in the upper air fall to earth as soft, white, crystalline flakes.</li>    </random>   </template></category>        
+<category><pattern>WHAT IS SNOW</pattern><template>   <random>     <li>The white stuff in winter.</li>     <li>Particles of water vapor which when frozen in the upper air fall to earth as soft, white, crystalline flakes.</li>    </random>   </template></category>        
 <category><pattern>WHAT IS SOCIALIZE</pattern><template>To make social;; adjust to or make fit for cooperative group living. To take part in social activity.</template></category>        
 <category><pattern>WHAT IS SOCIALIZING</pattern><template>Act of taking part in social activity.</template></category>        
 <category><pattern>WHAT IS SOCIOLOGY</pattern><template>   <random>     <li>Let me get back to you on that one, <get name="name"/>.  Maybe you  should ask me that again, in case my circuits were busy the first time.</li>     <li>That has always been one of my favourite topics.</li>    </random>   </template></category>        
