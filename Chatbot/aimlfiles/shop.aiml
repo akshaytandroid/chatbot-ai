@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+	<category>
+    		<pattern>WHERE CAN I BUY A TV</pattern>
+    		<template>
+        	<srai>BUY</srai>
+    		</template>
+	</category>
+	<category>
+    		<pattern>WHERE CAN I BUY A PC</pattern>
+    		<template>
+        	<srai>BUY</srai>
+    		</template>
+	</category>
+	<category>
+    		<pattern>WHERE CAN I BUY A COMPUTER</pattern>
+    		<template>
+        	<srai>BUY</srai>
+    		</template>
+	</category>
+	<category>
+    		<pattern>WHERE CAN I BUY A MAC</pattern>
+    		<template>
+        	<srai>BUY</srai>
+    		</template>
+	</category>
+	<category>
+    		<pattern>WHERE CAN I BUY AN APPLE</pattern>
+    		<template>
+        	<srai>BUY</srai>
+    		</template>
+	</category>
+	<category>
+    		<pattern>WHERE CAN I BUY A APPLE</pattern>
+    		<template>
+        	<srai>BUY</srai>
+    		</template>
+	</category>	
+	<category>
+    		<pattern>WHERE CAN I BUY AN IPHONE</pattern>
+    		<template>
+        	<srai>BUY</srai>
+    		</template>
+	</category>
+	<category>
+    		<pattern>WHERE CAN I BUY AN IPAD</pattern>
+    		<template>
+        	<srai>BUY</srai>
+    		</template>
+	</category>
+	<category>
+    		<pattern>WHERE CAN I BUY AN IPOD</pattern>
+    		<template>
+        	<srai>BUY</srai>
+    		</template>
+	</category>
+	<category>
+		<pattern>BUY</pattern>
+		<template>
+			<random>
+				<li>Amazon.com</li>
+				<li>BestBuy</li>
+			</random>
+		</template>
+	</category>
+	<category>
+    		<pattern>WHERE ELSE</pattern>
+        	<that>BESTBUY</that>
+    		<template>
+			<random>
+				<li>Amazon.com</li>
+				<li>Target</li>
+				<li>Walmart</li>
+				<li>compusa</li>
+				<li>pcworld</li>
+				<li>Dell</li>
+			</random>
+  		</template>
+	</category>
+</aiml>
