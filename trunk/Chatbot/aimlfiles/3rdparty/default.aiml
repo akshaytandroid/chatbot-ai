@@ -8330,20 +8330,7 @@
       Everyone is so busy nowadays.
     </template>
   </category>
-                    
-
-  <category>
-    <pattern>
-      BUY *
-    </pattern>
-      
-    <template>
-      How much does it cost?
-    </template>
-     
-  </category>
-                       
-
+                   
   <category>
     <pattern>
       BY * FOR HER
