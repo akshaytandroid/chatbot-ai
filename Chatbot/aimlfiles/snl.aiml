@@ -2,6 +2,45 @@
 <aiml version="1.0">
   <category>
     <pattern>
+     WHAT IS SNL
+    </pattern>
+    <template>
+      Saturday Night Live!
+    </template>
+  </category>
+
+  <category>
+    <pattern>
+     DO YOU WATCH SNL
+    </pattern>
+	<that>SATURDAY NIGHT LIVE!</that>
+    <template>
+      I love SNL.
+    </template>
+  </category>
+
+  <category>
+    <pattern>
+     DO YOU LIKE SNL
+    </pattern>
+	<that>SATURDAY NIGHT LIVE!</that>
+    <template>
+      I love SNL.
+    </template>
+  </category>
+
+  <category>
+    <pattern>
+     DO YOU HATE SNL
+    </pattern>
+	<that>SATURDAY NIGHT LIVE!</that>
+    <template>
+      I love SNL.
+    </template>
+  </category>
+
+  <category>
+    <pattern>
       WHO HOST EPISODE 544
     </pattern>
     <template>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<category>
+    <pattern>WHO IS INGRID BERGMAN</pattern>
+    <template>
+        <srai>WHOISB</srai>
+    </template>
+</category>
+<category>
+    <pattern>WHO * INGRID BERGMAN</pattern>
+    <template>
+        <srai>WHOISB</srai>
+    </template>
+</category>
+<category>
+    <pattern>WHOM IS INGRID BERGMAN</pattern>
+    <template>
+        <srai>WHOISB</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>WHOM IS I. BERGMAN</pattern>
+    <template>
+        <srai>WHOISB</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>WHOISB</pattern>
+    <template>
+ 	<random>
+          Ingrid Bergman is an actor  
+    </template>
+</category> 
+
+<category>
+	<pattern>WHAT HAS SHE PLAYED IN</pattern>
+	<that>INGRID BERGMAN IS AN ACTOR</that>
+	<template>Casablanca and Notorious</template>
+</category>
+<category>
+	<pattern>WHAT MOVIES HAS SHE BEEN IN</pattern>
+	<that>INGRID BERGMAN IS AN ACTOR</that>
+	<template>Casablanca and Notorious</template>
+</category>
+
+
+<category>
+    <pattern>WHO IS CARY GRANT</pattern>
+    <template>
+        <srai>WHOIS</srai>
+    </template>
+</category>
+<category>
+    <pattern>WHO * CARY GRANT</pattern>
+    <template>
+        <srai>WHOIS</srai>
+    </template>
+</category>
+<category>
+    <pattern>WHOM IS CARY GRANT</pattern>
+    <template>
+        <srai>WHOIS</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>WHOM IS C. GRANT</pattern>
+    <template>
+        <srai>WHOIS</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>WHOIS</pattern>
+    <template>
+ 	<random>
+          cary Grant is an actor  
+    </template>
+</category> 
+
+<category>
+	<pattern>WHAT HAS HE PLAYED IN</pattern>
+	<that>CARY GRANT IS AN ACTOR</that>
+	<template>North by Northwest</template>
+</category>
+<category>
+	<pattern>WHAT MOVIES HAS HE BEEN IN</pattern>
+	<that>CARY GRANT IS AN ACTOR</that>
+	<template>North by Northwest</template>
+</category>
+<category>
+	<pattern>WHAT ELSE</pattern>
+	<that>NORTH BY NORTHWEST</that>
+	<template>Philadelphia Story</template>
+</category>
+
+</aiml>
